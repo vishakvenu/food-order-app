@@ -1,0 +1,60 @@
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+@media (max-width: 780px) {
+  .swipper-slide {
+    width: 100%;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel_slider_wrapper {
+  position: relative;
+}
+
+.typography {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  color: #fff;
+  z-index: 9;
+}
+
+@media (max-width: 768px) {
+  .typography {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #fff;
+  }
+}
+/*# sourceMappingURL=carousel.css.map */
