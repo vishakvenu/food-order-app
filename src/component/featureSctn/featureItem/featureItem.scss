@@ -1,0 +1,19 @@
+@import '../../../variables';
+
+.featureBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 15px 10px 15px;
+    background:rgb(33,35,38);
+    color:#fff;
+}
+.Addbtn{
+    padding:15px;
+    border:2px solid $btn;
+    background:none;
+    color:#fff;
+}
+.Addbtn:hover{
+    background:$btn;
+}

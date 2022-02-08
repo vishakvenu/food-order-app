@@ -1,0 +1,26 @@
+.featureBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 15px 10px 15px;
+  background: #212326;
+  color: #fff;
+}
+
+.Addbtn {
+  padding: 15px;
+  border: 2px solid #58adb7;
+  background: none;
+  color: #fff;
+}
+
+.Addbtn:hover {
+  background: #58adb7;
+}
+/*# sourceMappingURL=featureItem.css.map */
