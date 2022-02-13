@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .header {
   width: 100vw;
+  margin-top: 55px;
   height: 88vh;
   background-image: url("../../assets/background.jpg");
   background-position: center;

@@ -3,14 +3,14 @@
 }
 .homepage_addBtn{
     position: absolute;
-    right:20px;
-    bottom:20px;
+    right:30px;
+    bottom:30px;
     position: fixed;
     padding:15px;
     border-radius: 50%;
     background-color: red;
     border:none;
-    z-index:99;
+    z-index:99; 
     color:#fff;
 }
 .homepage_icon{

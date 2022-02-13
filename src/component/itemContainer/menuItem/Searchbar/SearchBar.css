@@ -1,0 +1,41 @@
+.searchbar {
+  color: #000;
+  background: #fff;
+  width: 70%;
+  height: 40px;
+  border-radius: 14px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.searchBarContainer {
+  width: 70%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-radius: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 14px;
+}
+
+.searchBarContainer input {
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 14px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .searchBarContainer {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=SearchBar.css.map */

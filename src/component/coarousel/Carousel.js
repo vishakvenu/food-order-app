@@ -18,7 +18,7 @@ export default function Carousel() {
   const classes = useStyles();
 
   useEffect(()=>{
-    if(window.innerWidth<=768){
+    if(window.innerWidth<=766){
       setView(1)
     }else if(window.innerWidth>768){
       setView(3)
